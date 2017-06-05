@@ -1,0 +1,12 @@
+{
+    "name": "radikalz/mailer",
+    "authors": [
+        {
+            "name": "thomas.loyan",
+            "email": "thomas.loyan@epitech.eu"
+        }
+    ],
+    "require": {
+        "swiftmailer/swiftmailer": "^5.4"
+    }
+}

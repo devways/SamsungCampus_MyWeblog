@@ -1,0 +1,94 @@
+body{
+	text-align: center;
+	overflow-x: hidden;
+}
+
+h1{
+	color: #0000FF;
+	font-family: cursive;
+}
+h3{
+	font-family: cursive;
+}
+.container{
+	background-color: #848484;
+	width:40%;
+	color: #fff;
+	margin: 0px auto;
+}
+#text{
+	font-size: 20px;
+}
+
+#envoyer{
+	background-color: #088A08;
+	border: 1px solid #088A08;
+	color: #fff;
+	height: 35px;
+	width: 150px;
+	border-radius: 5px;
+}
+#envoyer:hover{
+	background-color: #fff;
+	border: 1px solid #088A08;
+	color: #088A08;
+}
+
+#supprimer{
+	background-color: #DF0101;
+	border: 1px solid #DF0101;
+	color: #fff;
+	height: 35px;
+	width: 350px;
+	border-radius: 5px;
+}
+#supprimer:hover{
+	background-color: #fff;
+	border: 1px solid #DF0101;
+	color: #DF0101;
+}
+input[type="radio"]{
+	font-size: 15px;
+}
+#page{
+	text-decoration: none;
+	color: #0000FF;
+	font-weight: bold;
+	font-size: 25px;
+}
+#title{
+	height: 35px;
+	width: 20%;
+	font-family: cursive;
+}
+#author{
+	height: 35px;
+	width: 20%;
+	font-family: cursive;
+}
+textarea{
+	font-family: cursive;
+}
+@media (max-width: 768px){
+
+	.container{
+		width: 100%;
+	}
+	#supprimer{
+		width: 100%;
+		margin-top: 20px;
+	}
+	textarea{
+		width: 100%;
+	}
+	#title{
+		width: 100%;
+	}
+	#author{
+		width: 100%;
+	}
+	#text{
+		font-size: 17px;
+	}
+}
+
