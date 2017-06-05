@@ -62,7 +62,7 @@ class dataAuth {
 		}
 		$mailer = Swift_Mailer::newInstance($transport);
 		$message = Swift_Message::newInstance('confirmation de compte')
-			->setFrom(['loyan.thomas@gmail.com' => 'gmail.com'])
+			->setFrom(['mail@mail.com' => 'gmail.com'])
 			->setTo(["$to"])
 			->setBody("http://localhost/depot/gestion_espace_membre-Refactoring\r\n/confirm.php?id=$user_id\r\n&token=$token");
 		$result = $mailer->send($message);
@@ -157,7 +157,7 @@ class dataAuth {
 			$to = $email;
 			$mailer = Swift_Mailer::newInstance($transport);
 			$message = Swift_Message::newInstance('Reinitialisation de mot de passe')
-				->setFrom(['loyan.thomas@gmail.com' => 'gmail.com'])
+				->setFrom(['mail@mail.com' => 'gmail.com'])
 				->setTo(["$to"])
 				->setBody("http://localhost/depot/gestion_espace_membre-Refactoring\r\n/reset.php?id={$user->id}\r\n&reset_token=$reset_token");
 				$result = $mailer->send($message);
